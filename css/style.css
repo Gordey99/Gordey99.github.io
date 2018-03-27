@@ -792,7 +792,9 @@ header {
 	width: 40rem;
 }
 
-
+#main-head .modal-dialog {
+	max-width: 44rem;
+}
 }
 
 @media only screen and (max-width : 497px) {
@@ -862,5 +864,10 @@ h2 {
 #second-form h2 {
 	width: 30rem;
 	font-size: 1.8rem;
+}
+
+#main-head .modal-dialog {
+	max-width: 30rem;
+	margin: 0 auto;
 }
 }
