@@ -795,6 +795,11 @@ header {
 #main-head .modal-dialog {
 	max-width: 44rem;
 }
+
+#exampleModalCenter {
+	max-width: 32rem;
+	margin-right: 1.5rem;
+}
 }
 
 @media only screen and (max-width : 497px) {
