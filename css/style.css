@@ -343,6 +343,11 @@ img.need-cor-1 {
 	color: #6c1390
 }
 
+#second-form h2 {
+	width: 34rem;
+	margin: 0 auto;
+}
+
 .second-form-block {
 	display: inline-block;
 	vertical-align: top;
@@ -808,7 +813,7 @@ header {
 
 @media only screen and (max-width : 480px) {
 header {
-	height: 124rem;
+	height: 128rem;
 }
 .main-header .main-slogan h1 {
 	font-size: 6.5rem;
@@ -824,5 +829,38 @@ header {
 
 .feature-item img {
 	margin-bottom: 1.5rem;
+}
+
+.main-form {
+	width: 29rem;
+}
+
+.main-form button.form-button {
+	font-size: 1.4rem;
+}
+
+.main-header .main-slogan h1 {
+	font-size: 5rem;
+}
+
+#second-form input {
+	width: 24rem;
+}
+
+#second-form button {
+	width: 24rem;
+}
+
+.need p {
+	width: 28rem;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+#second-form h2 {
+	width: 30rem;
+	font-size: 1.8rem;
 }
 }
