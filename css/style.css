@@ -571,6 +571,10 @@ header {
 	height: 120rem;
 }
 
+.contact-header {
+	display: none;
+}
+
 .ask-question p {
 	font-size: 2.4rem;
 }
