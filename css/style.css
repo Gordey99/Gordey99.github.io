@@ -6,6 +6,10 @@ body {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+body .wrapper h1,h2,h3 {
+	font-family: 'Open Sans' !important;
+}
+
 .wrapper {
 	overflow-x: hidden !important;
 }
@@ -24,7 +28,7 @@ header {
 }
 
 .main-menu {
-	font-size: 2rem;
+	font-size: 2.1rem;
 	margin-top: 3rem;
 }
 
@@ -49,12 +53,15 @@ header {
 }
 
 .main-header .main-slogan h1 {
-	font-size: 10rem;
+	font-size: 11rem;
 	padding-bottom: 3rem;
+	font-family: 'Open Sans';
 }
 
 .main-header .main-slogan p {
-	font-size: 2.5rem;
+	font-size: 2.7rem;
+	width: 58rem;
+	margin-left: 3rem;
 }
 
 .main-form {
@@ -126,6 +133,11 @@ button.form-button:hover {
 	position: relative;
 }
 
+.main-form p a:hover,focus {
+	font-size: 1.4rem;
+	cursor: pointer;
+}
+
 .main-form p a i {
 	margin-left: 0.5rem;
 	width: 1rem;
@@ -147,7 +159,7 @@ form i{
     position: relative;
 }
 
-form i:after{
+/*form i:after{
     text-align: center;
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, esse!";
     display: none;
@@ -171,7 +183,7 @@ form i:hover::after{
     display: block;
     position: absolute;
     transition: all .5s;
-}
+}*/
 
 
 .header-down i {
@@ -547,6 +559,8 @@ footer {
 
 .main-header .main-slogan p {
 	font-size: 2.2rem;
+	width: auto;
+	margin: 0 auto;
 }
 
 .feature-item p {
@@ -830,31 +844,57 @@ header {
 	height: 128rem;
 }
 .main-header .main-slogan h1 {
-	font-size: 6.5rem;
+	font-size: 6rem;
 }
 
 .main-header .main-slogan p {
-	font-size: 2rem;
+	font-size: 2.3rem;
 }
 
 .menu-link {
 	top: 65px;
 }
 
+.about-game-block p {
+	font-size: 2.1rem;
+}
+
 .feature-item img {
 	margin-bottom: 1.5rem;
+}
+
+.feature-item p {
+	font-size: 1.8rem;
 }
 
 .main-form {
 	width: 29rem;
 }
 
+.about-speaker p {
+	font-size: 1.9rem;
+}
+
 .main-form button.form-button {
 	font-size: 1.4rem;
 }
 
-.main-header .main-slogan h1 {
-	font-size: 5rem;
+#rules h3 {
+	font-size: 4rem;
+}
+
+.rules-block .rule-item img {
+	width: 5rem;
+	height: 5rem;
+	margin-top: -0.6rem;
+}
+
+.rules-block .rule-item p {
+	font-size: 1.9rem;
+}
+
+.rule-item p {
+	font-size: 1.8rem;
 }
 
 #second-form input {
@@ -867,6 +907,10 @@ header {
 
 .need p {
 	width: 28rem;
+}
+
+.need img {
+	margin-bottom: 1rem;
 }
 
 h2 {
