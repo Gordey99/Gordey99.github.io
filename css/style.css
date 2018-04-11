@@ -35,12 +35,12 @@ header {
 .main-menu a {
 	color: #fff;
 	text-decoration: none;
+	transition: all .2s;
 }
 
 .main-menu a:hover {
 	color: #843f9a;
 	text-decoration: none;
-	transition: all .2s;
 }
 
 .adapt-menu {
@@ -95,11 +95,11 @@ header {
 	font-family: 'Open Sans';
 	font-weight: 400;
 	font-style: italic;
+	transition: all .3s;
 }
 
 .main-form input:focus::-webkit-input-placeholder {
 	color: transparent;
-	transition: all .3s;
 	border: none;
 }
 
@@ -116,13 +116,13 @@ header {
 	margin-bottom: 1rem;
 	outline: none;
 	font-family: 'Roboto';
+	transition: all .6s;
 }
 
 button.form-button:hover {
 	background: #843f9a;
 	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.8);
 	color: #cdcbce;
-	transition: all .6s;
 	border: 1px solid #8f129a;
 }
 
@@ -131,6 +131,7 @@ button.form-button:hover {
 	color: #fff;
 	text-decoration: underline;
 	position: relative;
+	transition: all .3s;
 }
 
 .main-form p a:hover,focus {
@@ -141,6 +142,7 @@ button.form-button:hover {
 .main-form p a i {
 	margin-left: 0.5rem;
 	width: 1rem;
+	transition: all .5s;
 }
 
 .main-form p a i:hover {
@@ -197,43 +199,55 @@ form i:hover::after{
 	width: 7rem;
 	height: 7rem;
 	border-radius: 50%;
+	transition: all .3s;
 }
 
 .header-down i:hover {
 	border: 1px solid #fff;
 	color: #cac9cb;
-	transition: all .3s;
 }
 
 .about-game-block {
 	margin-bottom: 14rem;
 }
 
-.img-about-game img {
-	max-width: 100%;
+.about-game-text iframe {
+	float: right;
+	width: 50%;
+	padding-left: 2rem;
+}
+
+.about-game-text span {
+	font-weight: 500;
+	font-size: 2.1rem;
 }
 
 .about-game-text {
+	float: left;
 	padding-left: 1rem;
+	padding-bottom: 3rem;
+	margin-top: 6rem;
 	box-sizing: border-box;
-	border: 1px solid #000;
-	border-color: transparent;
-	border-left: 1px solid #000;
 	box-shadow: 0 1px 8px 0 rgba(0,0,0,0.5);
+	transition: all .7s;
+}
+
+p.about-game-bottom {
+	font-style: italic;
 }
 
 .about-game-text:hover {
-	transition: all .7s;
 	box-shadow: 2px 5px 20px 0 rgba(0,0,0,0.5);
 }
 
 .about-game-block h2 {
 	font-size: 4.4rem;
-	padding-bottom: 2rem;
+	padding-bottom: 5rem;
+	text-align: center;
 }
 
 .about-game-block p {
-	font-size: 1.7rem;
+	font-size: 1.8rem;
 }
 
 
@@ -278,11 +292,11 @@ form i:hover::after{
 	box-shadow: 2px 5px 8px 0 rgba(0,0,0,0.5);
 	margin-top: 10rem;
 	padding-bottom: 5rem;
+	transition: all .6s !important;
 }
 
 .about-speaker:hover {
 	box-shadow: 4px 10px 20px 0 rgba(0,0,0,0.5);
-	transition: all .6s;
 }
 
 .about-speaker h2 {
@@ -390,11 +404,11 @@ img.need-cor-1 {
 
 .second-form-block input::-webkit-input-placeholder {
 	color: #7f19a9;
+	transition: all .3s;
 }
 
 .second-form-block input:focus::-webkit-input-placeholder {
 	color: transparent;
-	transition: all .3s;
 	border: none;
 }
 
@@ -491,11 +505,11 @@ img.need-cor-1 {
 	font-weight: 400;
 	font-style: italic;
 	outline: none;
+	transition: all .3s;
 }
 
 #contact textarea:focus::-webkit-input-placeholder {
 	color: transparent;
-	transition: all .3s;
 	border: none;
 	outline: none;
 }
@@ -504,7 +518,6 @@ button.form-button:hover {
 	background: #843f9a;
 	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.8);
 	color: #cdcbce;
-	transition: all .6s;
 	border: 1px solid #8f129a;
 }
 
@@ -632,21 +645,26 @@ header {
 	margin-top: -1px;
 	margin-left: -10px;
 }
+
 .menu-link span:nth-child(1) {
 	transform: translateY(-6px);
 }
+
 .menu-link span:nth-child(3) {
 	transform: translateY(6px);
 }
+
 .menu-link:hover {
 	cursor: pointer;
 }
+
 .menu-link:hover span:nth-child(3) {
 	transform-origin: 0% 0%;
 	transform: translateY(6px) rotate(-33deg);
 	width: 10px;
 	margin-left: 0;
 }
+
 .menu-link:hover span:nth-child(1) {
 	transform-origin: 0% 0%;
 	transform: translateY(-6px) rotate(31deg);
@@ -671,6 +689,7 @@ header {
 .active-menu {
 	transform: translateX(-20%);
 }
+
 .click-memu ul {
 	padding: 0;
 	margin-top: 3.5rem;
@@ -699,6 +718,7 @@ header {
 .click-menu a:hover {
 	text-decoration: none;
 }
+
 .close-btn {
 	position: fixed;
 	top: 30px;
@@ -713,6 +733,7 @@ header {
 	height: 3rem;
 	color: #fff;
 }
+
 .close-btn:hover {
 	transform: rotate(180deg);
 }
@@ -720,6 +741,25 @@ header {
 .header-down {
 	margin-top: 4rem;
 }
+
+.about-game-text p iframe {
+	float: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 60rem;
+	height: 28rem;
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.about-game-text p.center992 {
+	text-align: center;
+}
+
+.about-game-text {
+	float: none;
+}
+
 .feature-item {
 	text-align: center;
 }
@@ -757,8 +797,10 @@ header {
 }
 
 @media only screen and (max-width : 768px) {
-.img-about-game {
-	width: 100%;
+
+.about-game-text p iframe {
+	width: 44rem;
+	height: 26rem;
 }
 
 .about-game-text {
@@ -810,6 +852,7 @@ header {
 }
 
 @media only screen and (max-width : 533px) {
+
 .need p {
 	width: 40rem;
 }
@@ -824,6 +867,12 @@ header {
 }
 
 @media only screen and (max-width : 497px) {
+
+.about-game-text p iframe {
+	width: 39rem;
+	height: 23rem;
+}
+
 .need {
 	margin-bottom: 4rem;
 }
