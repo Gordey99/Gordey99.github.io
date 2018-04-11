@@ -790,7 +790,8 @@ header {
 }
 
 .video-item iframe {
-	min-height: 35rem;
+	max-height: 27rem;
+	min-height: 22rem;
 	margin-bottom: 1rem;
 }
 
@@ -869,7 +870,7 @@ header {
 @media only screen and (max-width : 497px) {
 
 .about-game-text p iframe {
-	width: 39rem;
+	width: 36rem;
 	height: 23rem;
 }
 
