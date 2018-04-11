@@ -64,6 +64,10 @@ header {
 	margin-left: 3rem;
 }
 
+#exampleModalCenter {
+	margin: 0 auto;
+}
+
 .main-form {
 	background: linear-gradient(135deg, #8c24b8, #591b73);
 	padding: 7rem 6rem;
@@ -760,6 +764,10 @@ header {
 	float: none;
 }
 
+p.about-game-bottom {
+	text-align: center;
+}
+
 .feature-item {
 	text-align: center;
 }
@@ -782,7 +790,7 @@ header {
 	max-width: 100%;
 	margin: 0 auto;
 	margin-top: 6rem;
-	padding-bottom: 3rem;
+	padding-bottom: 8rem;
 }
 
 #feedback {
@@ -870,8 +878,12 @@ header {
 @media only screen and (max-width : 497px) {
 
 .about-game-text p iframe {
-	width: 36rem;
-	height: 23rem;
+	width: 33rem;
+	height: 22rem;
+}
+
+.rule {
+	margin-bottom: 4rem;
 }
 
 .need {
@@ -894,7 +906,7 @@ header {
 	height: 128rem;
 }
 .main-header .main-slogan h1 {
-	font-size: 6rem;
+	font-size: 5.7rem;
 }
 
 .main-header .main-slogan p {
@@ -941,6 +953,8 @@ header {
 
 .rules-block .rule-item p {
 	font-size: 1.9rem;
+	text-align: center;
+	margin-bottom: 3rem;
 }
 
 .rule-item p {
