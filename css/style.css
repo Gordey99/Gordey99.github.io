@@ -36,8 +36,10 @@ body{
     background-color: #66068e;
     margin: 4rem auto;
     -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
+    -moz-animation: sk-rotatePlane 1.2s infinite ease-in-out;
+    -ms-animation: sk-rotatePlane 1.2s infinite ease-in-out;
+    -o-animation: sk-rotatePlane 1.2s infinite ease-in-out;
     animation: sk-rotatePlane 1.2s infinite ease-in-out;
-
 }
 @-webkit-keyframes sk-rotatePlane {
   0% {
