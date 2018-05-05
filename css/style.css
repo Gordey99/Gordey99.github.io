@@ -269,10 +269,6 @@ body{
     padding: 10rem 0 7rem;
 }
 .cf_about_img {
-    float: left;
-    width: 100%;
-    position: relative;
-    padding:0;
     margin-bottom: 3rem;
 }
 .cf_aboutdata {
@@ -1177,7 +1173,7 @@ textarea:focus::-webkit-input-placeholder {
     border-right: none;
 }
 .cf_mainheader{
-    padding: 15px 0;
+    padding: 0;
 }
 .navbar-toggle{
     background-color: #66068e;
@@ -1369,6 +1365,13 @@ textarea:focus::-webkit-input-placeholder {
 }
 #cf_preloader_wrapper {
     display: none;
+}
+.cf_bannerdata h2 {
+    padding: 2rem;
+}
+.cf_about_img img {
+    height: 99%;
+    width: 99%;
 }
 .cf_aboutdata h2{
     font-size: 28px;
