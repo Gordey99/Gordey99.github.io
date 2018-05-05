@@ -149,7 +149,7 @@ $('#link').click(function(){
 	// Loader js
 	$(window).on('load', function() {
 		jQuery("#cf_preloader_box").fadeOut();
-		jQuery("#cf_preloader_wrapper").delay(350).fadeOut("slow");
+		jQuery("#cf_preloader_wrapper").fadeOut("slow");
 	});
 
 	// Scroll Event
