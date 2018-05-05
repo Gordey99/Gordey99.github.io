@@ -993,6 +993,7 @@ textarea:focus::-webkit-input-placeholder {
 	
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+
 .cf_menu ul.nav li a{
     margin: 0px 15px;
 }
@@ -1363,6 +1364,12 @@ textarea:focus::-webkit-input-placeholder {
 }
 }
 @media (max-width: 479px) {
+#cf_preloader_box {
+    display: none;
+}
+#cf_preloader_wrapper {
+    display: none;
+}
 .cf_aboutdata h2{
     font-size: 28px;
 }
