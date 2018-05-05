@@ -1366,9 +1366,6 @@ textarea:focus::-webkit-input-placeholder {
 #cf_preloader_wrapper {
     display: none;
 }
-.cf_bannerdata h2 {
-    padding: 2rem;
-}
 .cf_about_img img {
     height: 99%;
     width: 99%;
