@@ -18,6 +18,7 @@
     <link href="css/fonts.css" rel="stylesheet" type="text/css">
     <link href="js/plugins/owl/owl.carousel.css" rel="stylesheet" type="text/css">
     <link href="js/plugins/magnific_popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="js/parallax.min.js">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <!-- end theme style -->
     <!-- favicon links -->
@@ -43,12 +44,12 @@
 				<div class="cf_menu">
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">Главная</a></li>
-							<li><a href="#">Об игре</a></li>
-							<li><a href="#">Игротехники</a></li>
-							<li><a href="#">Правила</a>
-							<li><a href="#">Отзывы</a></li>
-							<li><a href="#">Контакты</a></li>
+							<li class="active"><a href="#main-header">Главная</a></li>
+							<li><a href="#about-game">Об игре</a></li>
+							<li><a href="#speakers">Игротехники</a></li>
+							<li><a href="#rules">Правила</a>
+							<li><a href="#video-feedback">Отзывы</a></li>
+							<li><a href="#contacts">Контакты</a></li>
 						</ul>
 					</div>
 				</div>
@@ -56,7 +57,8 @@
 		</div>
 	</div>
 </div>
-<div class="cf_banner_wrapper">
+<div id="main-header" class="parallax-window" data-parallax="scroll">
+	<div class="cf_banner_wrapper">
 	<div class="cf_bannerdiv">
 		<img src="images/header.jpg" class="img-fluid animated fadeInDown" alt="">
 		<div class="cf_overlay animated fadeInDown"></div>
@@ -75,7 +77,9 @@
 		</div>
 	</div>
 </div>
-<div class="cf_transparent_wrapper">
+</div>
+<div id="about-game" class="parallax-window" data-parallax="scroll">
+	<div class="cf_transparent_wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-5 col-md-5 col-sm-12 col-11">
@@ -120,7 +124,9 @@
 		</div>
 	</div>
 </div>
-<div class="cf_services_wrapper">
+</div>
+<div id="features" class="parallax-window" data-parallax="scroll">
+	<div class="cf_services_wrapper">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
@@ -198,7 +204,9 @@
 		</div>
 	</div>
 </div>
-<div class="cf_lightgray_wrapper">
+</div>
+<div id="speakers" class="parallax-window" data-parallax="scroll">
+	<div class="cf_lightgray_wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
@@ -302,7 +310,9 @@
 		</div>
 	</div>
 </div>
-<div class="cf_rules_wrapper">
+</div>
+<div id="rules" class="parallax-window" data-parallax="scroll">
+	<div class="cf_rules_wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
@@ -346,39 +356,45 @@
 		</div>
 	</div>
 </div>
-<div class="cf_transparent_wrapper">
-	<div class="container">
+</div>
+	<div id="video-feedback" class="parallax-window" data-parallax="scroll">
+		<div class="video-feedback">
+		<div class="container">
 		<div class="row">
 			<div class="col-12">
 				<div class="cf_mainheading">
-					<div class="cf_mainheading_innerdiv">
+					<div class="cf_mainheading_innerdiv video-top">
 						<span class="ac-left-top-border"></span>
 						<span class="ac-right-top-border"></span>
 						<span class="ac-right-bottom-border"></span>
 						<span class="ac-left-bottom-border"></span>
-						<h2>Видеоотзывы о наших играх</h2>
+						<h2>Видеоотзывы</h2>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-6 col-xs-12 feedback_block">
-				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ZKSnrJqoZJw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
-			<div class="col-lg-6 col-xs-12 feedback_block">
-				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/AYVaPxswNxU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
-			<div class="col-lg-6 col-xs-12 feedback_block">
-				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/MAmlJwj0A6c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
-			<div class="col-lg-6 col-xs-12 feedback_block">
-				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Eg4IPoWB7uc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
-			<div class="col-lg-6 col-xs-12 feedback_block">
-				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/JXpOtHl-Ry8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
-			<div class="col-lg-6 col-xs-12 feedback_block">
-				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/fwEFbdltQ40" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
 		</div>
+				<div class="col-md-6 col-12 feedback_block">
+				<iframe width="91%" height="100%" src="https://www.youtube.com/embed/ZKSnrJqoZJw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-6 col-12 feedback_block feedback_block1">
+				<iframe width="91%" height="100%" src="https://www.youtube.com/embed/AYVaPxswNxU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-6 col-12 feedback_block">
+				<iframe width="91%" height="100%" src="https://www.youtube.com/embed/MAmlJwj0A6c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-6 col-12 feedback_block feedback_block1">
+				<iframe width="91%" height="100%" src="https://www.youtube.com/embed/Eg4IPoWB7uc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-6 col-12 feedback_block">
+				<iframe width="91%" height="100%" src="https://www.youtube.com/embed/JXpOtHl-Ry8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-6 col-12 feedback_block feedback_block1">
+				<iframe width="91%" height="100%" src="https://www.youtube.com/embed/fwEFbdltQ40" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+	</div>
+	</div>
+</div>
+	</div>
 <!--<div class="cf_newsletter_wrapper">
 	<div class="container">
 		<div class="row">
@@ -412,8 +428,8 @@
 		</div>
 	</div>
 </div>!-->
-<div class="cf_transparent_wrapper">
-	<div class="container">
+	<div id="contacts" class="parallax-window" data-parallax="scroll">
+		<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
 				<div class="cf_mainheading">
@@ -428,10 +444,14 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-5">
-				
+			<div class="col-md-7">
+				<p>Чтобы попасть на игру вы должны мне 500 рублей и что-то может-быть еще...</p> <br>
+				<p>Адрес такой вот или спросите у меня</p> <br>
+				<p>Вы можете внести предоплату вот сюда ... с пометкой</p> <br>
+				<p>С помощью формы регистрации вы забронируете свое место на игре, а места тут ограничены, короче давай свои данные.</p> <br>
+				<p>Контакты главного игротехника: ...... Тут можно задать любой вопрос.</p>
 			</div>
-			<div class="col-12">
+			<div class="col-md-5">
 				<form action="mail.php" method="POST" class="main-form">
  						<h3>Стоимость игры 500р</h3>
  						<input type="text" name="user_name" placeholder="Ваше имя" required="required">
@@ -468,14 +488,11 @@
 			</div>
 	</div>
 </div>
+	</div>
 <div class="cf_copyright_wrapper">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 text-center">
+			<div class="text-center">
 				<p>Игра-тренинг "Денежный поток" &copy; все права защищены</p>
 			</div>
-		</div>
-	</div>
 </div>
 <!--script start-->
 <script src="js/jquery.min.js" type="text/javascript"></script>

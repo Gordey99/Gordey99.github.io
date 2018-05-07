@@ -715,10 +715,20 @@ body{
 }
 /*-------------rules section end-------------*/
 /*-------------feedback section start-------------*/
-.feedback_block iframe {
-    margin: 0 auto;
+.video-feedback {
+    margin-bottom: 4.5rem;
+}
+.video-top {
+    margin-top: 7rem;
+}
+.feedback_block, .feedback_block1 {
+    height: 28rem;
     margin-bottom: 2.4rem;
 }
+.feedback_block1 iframe {
+    margin-left: 10%;
+}
+
 /*.cf_newsletter_wrapper {
     float: left;
     width: 100%;
@@ -887,7 +897,6 @@ body{
 /*-------------newsletter section end-------------*/
 /*-------------copyright section start-------------*/
 .cf_copyright_wrapper {
-    float: left;
     width: 100%;
     background: #0c2149;
     padding: 3rem 0;
@@ -899,10 +908,9 @@ body{
 /*-------------copyright section end-------------*/
 /*--------------about us page start---------*/
 .main-form {
-    background: linear-gradient(135deg, #8c24b8, #591b73);
+    background: #66068e;
     padding: 7rem 6rem;
     width: 38rem;
-    margin-top: 4rem;
     text-align: center;
     color: #fff;
     margin-left: 6rem;
@@ -910,17 +918,17 @@ body{
 }
 
 .main-form input {
-    background: #7f19a9;
+    background: #996ebd;
     color: #fff;
     display: block;
     text-align: center;
-  width: 100%;
-  padding: 1.4rem 1rem;
-  border: 1px solid #000;
-  outline: none;
-  margin: 2rem 0;
-  border-radius: 4px;
-  font-size: 1.6rem;
+    width: 100%;
+    padding: 1.4rem 1rem;
+    border: 1px solid #000;
+    outline: none;
+    margin: 2rem 0;
+    border-radius: 4px;
+    font-size: 1.6rem;
 }
 
 .main-form input::-webkit-input-placeholder {
@@ -938,7 +946,7 @@ body{
 }
 
 .main-form button.form-button {
-    background: #7f19a9;
+    background: #5e4077;
     box-shadow: 0 4px 15px 0 rgba(0,0,0,0.5);
     color: #fff;
     font-weight: bold;
@@ -954,20 +962,20 @@ body{
 }
 
 button.form-button:hover {
-    background: #843f9a;
+    background: #fff;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,0.8);
-    color: #cdcbce;
+    color: #66068e;
     border: 1px solid #8f129a;
 }
 textarea {
-    background: #7f19a9;
+    background: #996ebd;
     color: #fff;
     display: block;
     text-align: center;
-  width: 100%;
-  margin-bottom: 2rem;
-  outline: none;
-  border: 1px solid #000;
+    width: 100%;
+    margin-bottom: 2rem;
+    outline: none;
+    border: 1px solid #000;
 }
 
 textarea::-webkit-input-placeholder {
@@ -1069,8 +1077,14 @@ textarea:focus::-webkit-input-placeholder {
     left: auto;
     right: 0;
 }
+.main-form {
+    margin-top: 5rem;
+}
 .cf_bannerdiv, .cf_banner_wrapper{
     height:45rem;
+}
+.feedback_block1 iframe {
+    margin-left: 0;
 }
 }
 @media (max-width: 767px) {
@@ -1212,10 +1226,20 @@ textarea:focus::-webkit-input-placeholder {
 .main-form {
     margin: 0 auto;
     margin-bottom: 2rem;
-    width: 28rem;
+    width: 30rem;
 }
 .main-form button.form-button {
     font-size: 1.3rem;
+}
+.feedback_block iframe {
+    width: 100% !important;
+    height: 25rem;
+}
+.feedback_block1 iframe {
+    margin: 0 auto;
+}
+.main-form {
+    margin-top: 5rem;
 }
 }
 @media (max-width: 479px) {
@@ -1239,7 +1263,16 @@ textarea:focus::-webkit-input-placeholder {
     font-size: 3rem;
     line-height: 4.5rem;
 }
-
+.feedback_block iframe {
+    width: 100% !important;
+    height: 22rem;
+}
+.feedback_block1 iframe {
+    margin: 0 auto;
+}
+.main-form {
+    margin-top: 5rem;
+}
 }
 @media (max-width: 320px){
 .cf_mainheading h2 {
@@ -1249,8 +1282,15 @@ textarea:focus::-webkit-input-placeholder {
 .ac-left-top-border:after, .ac-right-top-border:after, .ac-right-bottom-border:after, .ac-left-bottom-border:after{
     height: 50%;
 }
-.cf_testimonial_slider .owl-controls{
-    top: 60%;
+.feedback_block iframe {
+    width: 100% !important;
+    height: 20rem;
+}
+.feedback_block1 iframe {
+    margin: 0 auto;
+}
+.main-form {
+    margin-top: 5rem;
 }
 }
 @media (max-width: 767px) and (orientation: landscape) {
