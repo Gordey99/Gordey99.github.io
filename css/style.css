@@ -475,7 +475,7 @@ body {
     border: 1px solid #66068e;
     margin-bottom: 5rem;
     height: auto;
-    background: #d9d9d9;
+    background: #e1e1e1;
 }
 
 .team-img {
@@ -564,6 +564,14 @@ a.team-link:hover {
 
 #rules .mainheading_innerdiv {
 	margin-top: 4rem;
+}
+
+.rules-slider-1 {
+	display: block;
+}
+
+.rules-slider-2 {
+	display: none;
 }
 
 .rules-block img {
@@ -1054,11 +1062,11 @@ span.main-span1 {
 }
 
 .banner {
-	height: 45rem;
+	height: 42rem;
 }
 
 .banner-data {
-	top: 30%;
+	top: 34%;
 }
 
 .about-team {
@@ -1099,6 +1107,14 @@ span.main-span1 {
 .team-contact p {
     font-size: 1.9rem;
     color: #66068e;
+}
+
+.rules-slider-1 {
+	display: none;
+}
+
+.rules-slider-2 {
+	display: block;
 }
 
 .feedback_block iframe {
