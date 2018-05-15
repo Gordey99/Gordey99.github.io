@@ -74,6 +74,30 @@ $('#link-6').click(function(){
 });
 
 
+$('.carousel').carousel()
+
+
+
+$(function() {
+				var menuLink = $('.menu-link');
+				var menu = $('.click-menu');
+				var close = $('.close-btn');
+				var navLink = $('li a');
+
+				menuLink.click(function() {
+					menu.toggleClass('active-menu');
+				});
+				close.click(function() {
+					menu.toggleClass('active-menu');
+				});
+
+				navLink.on('click', function(event) {
+					event.preventDefault();
+					var target = $(this).attr('href');
+					var top = $(target).offset().top;
+					$('html,body').animate({scrollTop: top}, 800)
+				});
+			});
 
 $("#header").on("click","a", function (event) {
         event.preventDefault();
@@ -81,11 +105,6 @@ $("#header").on("click","a", function (event) {
             top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 1500);
     });
-
-
-$('.carousel').carousel()
-
-
 
 
 

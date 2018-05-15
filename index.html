@@ -19,15 +19,15 @@
 	<body>
 
 	<header id="header">
-		<div class="container">
-			<div class="main-menu">
+		<div class="main-menu">
+			<div class="container">
  				<div class="row">
  					<div class="col-lg-2 col-sm-12">
  						<div class="logo">
 							<img src="img/icons/logo.png" alt="logo" class="img-fluid">
  					</div>
  				</div>
- 				<div class="col-lg-10">
+ 				<div class="col-xl-10 col-lg-12">
  					<div class="menu">
  						<div class="row">
  							<ul>
@@ -44,6 +44,24 @@
  			</div>
  		</div>
  	</div>
+ 	<div class="adapt-menu">
+	 	<div class="menu-link">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+			<div class="click-menu">
+				<a class="close-btn" href="#close">&times;</a>
+	 				<ul>
+	 					<li><a href="#header">Главная</a></li>
+	 					<li><a href="#about-game">Об игре</a></li>
+	 					<li><a href="#speakers">Тренеры</a></li>
+	 					<li><a href="#rules">Правила</a></li>
+	 					<li><a href="#video-feedback">Отзывы</a></li>
+						<li><a href="#contacts">Контакты</a></li>
+	 				</ul>
+				</div>
+ 			</div>
 		<div class="main-header">
 			<div class="banner">
 				<img src="img/header/header.jpg" alt="header-img" class="img-fluid">
@@ -53,10 +71,12 @@
 					<div class="banner-data">
 						<div class="container">
 							<div class="row">
-								<div class="col-xl-6 col-12">
-									<h2>Игра "Денежный поток</h2>
+								<div class="col-12">
+									<h2><span class="main-span">Игра</span> <span class="main-span1">"Денежный поток"</span></h2>
 									<p>Это финансово-образовательная настольная игра, которая обучает начальным знаниям инвестирования и финансовой грамотности.</p>
-									<a href="#about-game" class="header-btn">Подробнее</a>
+									<div class="top-btn">
+										<a href="#about-game" class="header-btn">Подробнее</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -70,12 +90,12 @@
 <section id="about-game">
 	<div class="container" id="about-game-block">
 		<div class="row">
-			<div class="col-lg-5 col-md-5 col-sm-12 col-11">
+			<div class="col-lg-5 col-12">
 				<div class="about-img">
 					<img src="img/about-game/about_game_pic.png" class="img-fluid" alt="">
 				</div>
 			</div>
-			<div class="col-md-7 col-sm-12 col-12">
+			<div class="col-lg-7 col-12">
 				<div class="about-data">
 					<h2>Об игре</h2>
 					<p>Что такое игра Денежный Поток?</p>
@@ -278,14 +298,22 @@
 						<img src="img/speakers/coach3.jpg" class="img-responsive" alt="">
 					</div>
 					<div class="team-chrcrt">
-						<p>Я помогаю игрокам осознать и найти именно свои способы, понять свои желания, цели и принять важные решения чтобы начать действовать. <br>
-							 Для этого я создаю располагающую атмосферу открытости, лёгкости и вдохновения. <br><br>
-					</div>
+						<p>– Тренер игры «Денежный поток» <br>
+							 – Ведущий игры «Монополия» для детей <br>
+							 – Игротехник игры-тренинга «Метафория» <br>
+							 – Автор и ведущий курса по предпринимательству «Про100 о бизнесе» <br>
+							 – Преподаватель финансовой грамотности для детей MoneyStart <br>
+						</div>
 					</div>
 					<div class="link-bottom"><a id="link-3" class="team-link">Продолжение...</a></div>
 					<div id="some_text-3" class="team-detail" style="display: none;">
-							<p>Своими вопросами через открытый диалог с каждым участником, даю конструктивную обратную связь. <br>
-							 Я помогаю найти игрокам ценные для них ответы и вдохновение - это моя миссия в игре!
+							<p>– Действующий экономист-финансист <br>
+							 	 – Выпускница клуба миллионеров г.Хабаровск<br><br>
+								 Я как ведущий присутствую в игре как эксперт в поведении игроков. <br>
+								 Я помогаю игрокам осознать и найти именно свои способы, понять свои желания, цели и принять важные решения чтобы начать действовать. <br>
+								 Для этого я создаю располагающую атмосферу открытости, лёгкости и вдохновения. <br>
+								 Своими вопросами через диалог с каждым участником, даю конструктивную обратную связь. <br>
+								 Я помогаю найти игрокам ценные для них ответы и вдохновение - это моя миссия в игре!
 						</p>
 						<div class="team-contact">
 							<p>Связаться:
@@ -316,7 +344,8 @@
 					</div>
 					<div class="link-bottom"><a id="link-4" class="team-link">Продолжение...</a></div>
 					<div id="some_text-4" class="team-detail" style="display: none;">
-							<p>Мое знакомство с игрой произошло в 2012 году после прочтения книги Роберта
+							<p><br>
+								Мое знакомство с игрой произошло в 2012 году после прочтения книги Роберта
 								 Кийосаки «Богатый папа, бедный папа». На игре мы знакомились с инструментами
 								 инвестирования и возможностями, которые окружают нас в жизни. Казалось бы,
 								 что изучали понятные вещи, но я задавал себе вопрос: «почему я этого не делаю
@@ -340,81 +369,6 @@
 					</div>
 				</div>
 			</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6 col-12">
-				<div class="about-team">
-					<h3>Тренер №4</h3>
-					<div class="team-top">
-						<div class="team-img">
-						<img src="img/speakers/coach2.jpg" class="img-responsive" alt="">
-					</div>
-					<div class="team-chrcrt">
-						<p>– Тренер Клуба Юных Миллионеров <br>
-							 – Инвестор <br>
-							 – Учредитель бизнеса <br>
-							 – Ведущая тренингов личностного роста и профессиональной эрудиции для
-							 риэлторов <br>
-							 – Ученица Максима Темченко и Дениса Корнева <br>
-					</div>
-					</div>
-					<div class="link-bottom"><a id="link-5" class="team-link">Продолжение...</a></div>
-					<div id="some_text-5" class="team-detail" style="display: none;">
-							<p>Мое знакомство с игрой началось в 2015 году. В это время я встала на путь поиска
-								 себя и поиска системы управления финансами. Игра перевернула мое понимание
-								 денег, а также их роли в моей жизни и жизни людей в целом. <br><br>
-								 Финансовый план, инвестирование, умение контролировать свои расходы,
-								 стратегии повышения доходов, бизнес без вложений и многое другое – стали для
-								 меня понятными и доступными инструментами. С момента постоянных тренировок
-								 я запустила еще несколько бизнесов, составила личный финансовый план,
-								 создаю инвестиционный портфель, а также тренирую желающих через игру «Денежный Поток».
-						</p>
-						<div class="team-contact">
-							<p>Связаться:
-							<a href="#"><i class="fab fa-vk"></i></a>
-							<a href="#"><i class="fab fa-whatsapp"></i></a>
-							<a href="#"><i class="fab fa-instagram"></i></a>
-						</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-6 col-12">
-				<div class="about-team">
-					<h3>Тренер №5</h3>
-					<div class="team-top">
-						<div class="team-img">
-						<img src="img/speakers/coach2.jpg" class="img-responsive" alt="">
-					</div>
-					<div class="team-chrcrt">
-						<p>– Тренер Клуба Юных Миллионеров <br>
-							 – Инвестор <br>
-							 – Учредитель бизнеса <br>
-							 – Ведущая тренингов личностного роста и профессиональной эрудиции для
-							 риэлторов <br>
-							 – Ученица Максима Темченко и Дениса Корнева <br>
-					</div>
-					</div>
-					<div class="link-bottom"><a id="link-6" class="team-link">Продолжение...</a></div>
-					<div id="some_text-6" class="team-detail" style="display: none;">
-							<p>Мое знакомство с игрой началось в 2015 году. В это время я встала на путь поиска
-								 себя и поиска системы управления финансами. Игра перевернула мое понимание
-								 денег, а также их роли в моей жизни и жизни людей в целом. <br><br>
-								 Финансовый план, инвестирование, умение контролировать свои расходы,
-								 стратегии повышения доходов, бизнес без вложений и многое другое – стали для
-								 меня понятными и доступными инструментами. С момента постоянных тренировок
-								 я запустила еще несколько бизнесов, составила личный финансовый план,
-								 создаю инвестиционный портфель, а также тренирую желающих через игру «Денежный Поток».
-						</p>
-						<div class="team-contact">
-							<p>Связаться:
-							<a href="#"><i class="fab fa-vk"></i></a>
-							<a href="#"><i class="fab fa-whatsapp"></i></a>
-							<a href="#"><i class="fab fa-instagram"></i></a>
-						</p>
-						</div>
-					</div>
-				</div>
 			</div>
 			</div>
 		</div>
@@ -488,24 +442,18 @@
 		</div>
 				<div class="row">
 					<div class="col-md-6 col-12 feedback_block">
-				<iframe width="91%" height="100%" src="https://www.youtube.com/embed/ZKSnrJqoZJw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<iframe width="91%" height="100%" src="https://www.youtube.com/embed/S8gDdPI6-ac" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-6 col-12 feedback_block feedback_block1">
+						<iframe width="91%" height="100%" src="https://www.youtube.com/embed/1SISkOOXolY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-6 col-12 feedback_block">
+						<iframe width="91%" height="100%" src="https://www.youtube.com/embed/vyxTlANDn2s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-6 col-12 feedback_block feedback_block1">
+						<iframe width="91%" height="100%" src="https://www.youtube.com/embed/-BMEkNZdOug" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
 			</div>
-			<div class="col-md-6 col-12 feedback_block feedback_block1">
-				<iframe width="91%" height="100%" src="https://www.youtube.com/embed/AYVaPxswNxU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
-			<div class="col-md-6 col-12 feedback_block">
-				<iframe width="91%" height="100%" src="https://www.youtube.com/embed/MAmlJwj0A6c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
-			<div class="col-md-6 col-12 feedback_block feedback_block1">
-				<iframe width="91%" height="100%" src="https://www.youtube.com/embed/Eg4IPoWB7uc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
-			<div class="col-md-6 col-12 feedback_block">
-				<iframe width="91%" height="100%" src="https://www.youtube.com/embed/JXpOtHl-Ry8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
-			<div class="col-md-6 col-12 feedback_block feedback_block1">
-				<iframe width="91%" height="100%" src="https://www.youtube.com/embed/fwEFbdltQ40" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
-				</div>
 		</div>
 	</div>
 </section>
@@ -524,7 +472,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xl-8 offset-xl-2 col-md-8 offset-md-2 col-12">
+			<div class="col-xl-8 offset-xl-2 col-md-10 offset-md-1 col-12">
 				<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -547,6 +495,18 @@
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="img/gallery/gallery7.jpg" alt="7 slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/gallery/gallery8.jpg" alt="7 slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/gallery/gallery9.jpg" alt="7 slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/gallery/gallery10.jpg" alt="7 slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/gallery/gallery11.jpg" alt="7 slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -577,14 +537,14 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-7">
+			<div class="col-lg-7 col-md-6">
 				<p>Чтобы попасть на игру вы должны мне 500 рублей и что-то может-быть еще...</p> <br>
 				<p>Адрес такой вот или спросите у меня</p> <br>
 				<p>Вы можете внести предоплату вот сюда ... с пометкой</p> <br>
 				<p>С помощью формы регистрации вы забронируете свое место на игре, а места тут ограничены, короче давай свои данные.</p> <br>
 				<p>Контакты главного игротехника: ...... Тут можно задать любой вопрос.</p>
 			</div>
-			<div class="col-md-5">
+			<div class="col-lg-5 col-md-6">
 				<form action="mail.php" method="POST" class="main-form">
  						<h3>Стоимость игры 500р</h3>
  						<input type="text" name="user_name" placeholder="Ваше имя" required="required">
@@ -623,7 +583,7 @@
 	</div>
 </section>
 
-<div class="cf_copyright_wrapper">
+<div class="copyright_wrapper">
 			<div class="text-center">
 				<p>Игра-тренинг "Денежный поток" &copy; все права защищены</p>
 			</div>
