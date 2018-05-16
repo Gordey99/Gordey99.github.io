@@ -1,5 +1,7 @@
 html {
     font-size: 10px;
+    overflow-x: hidden!important;
+    max-width: 100%;
 }
 
 body {
@@ -8,6 +10,7 @@ body {
   font-family: "Lora";
 	line-height: 2.4rem;
 	font-weight:400;
+	overflow-x: hidden!important;
 }
 
 /*HEADER*/
@@ -142,7 +145,7 @@ body {
 }
 
 .banner-data p {
-    width: 100%;	
+    width: 75%;	
     color: #f5f5f5;
     font-size: 2rem;
     line-height: 2.4rem;
@@ -475,7 +478,7 @@ body {
     border: 1px solid #66068e;
     margin-bottom: 5rem;
     height: auto;
-    background: #e1e1e1;
+    background: #f0f0f0;
 }
 
 .team-img {
@@ -649,7 +652,7 @@ a.team-link:hover {
 }
 
 .main-form button.form-button {
-    background: #5e4077;
+    background: #523d63;
     box-shadow: 0 4px 15px 0 rgba(0,0,0,0.5);
     color: #fff;
     font-weight: bold;
@@ -700,7 +703,7 @@ textarea:focus::-webkit-input-placeholder {
 /* FOOTER */
 
 .copyright_wrapper {
-    width: 100%;
+    width: 99%;
     background: #0c2149;
     padding: 3rem 0;
 }
@@ -783,8 +786,8 @@ textarea:focus::-webkit-input-placeholder {
 
 .menu-link {
 	position: fixed;
-	left: 20px;
-	top: 20px;
+	left: 30px;
+	top: 42px;
 	background-color: #4e0e68;
 	width: 50px;
 	height: 50px;
@@ -969,6 +972,11 @@ textarea:focus::-webkit-input-placeholder {
 	float: left;
 }
 
+.about-team {
+	width: 100% !important;
+	margin-left: 0;
+}
+
 .main-form {
 	margin: 0;
 }
@@ -989,6 +997,7 @@ textarea:focus::-webkit-input-placeholder {
 
 .banner-data p {
 	text-align: center;
+	width: 100%;
 }
 
 span.main-span {
@@ -1072,6 +1081,7 @@ span.main-span1 {
 .about-team {
 		float: none;
 		margin: 0 auto;
+		overflow-x: hidden;
     width: 100%;
     padding: 3rem;
     border: 1px solid #66068e;
@@ -1128,7 +1138,7 @@ span.main-span1 {
 
 .main-form {
     margin-top: 5rem;
-    width: 32.5rem;
+    width: 32rem;
     margin-bottom: 0;
 }
 }
@@ -1149,5 +1159,6 @@ span.main-span1 {
 }
 .main-form {
     margin-top: 5rem;
+    width: 30rem;
 }
 }
