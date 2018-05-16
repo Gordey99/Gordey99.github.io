@@ -99,7 +99,7 @@ $(function() {
 				});
 			});
 
-$("#header").on("click","a", function (event) {
+$("#header,#contacts").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
