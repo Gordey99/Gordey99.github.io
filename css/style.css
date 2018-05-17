@@ -678,6 +678,10 @@ p.plock:before {
 	height: auto;
 }
 
+.inf-bottom-game {
+	margin-bottom: 2.5rem;
+}
+
 .inf-bottom-game a {
 	color: #66068e;
 }
@@ -1138,7 +1142,7 @@ span.main-span1 {
 }
 
 .banner {
-	height: 42rem;
+	height: 46rem;
 }
 
 .banner-data {
