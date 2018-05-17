@@ -561,6 +561,7 @@ a.team-link:hover {
 /* RULES */
 
 #rules {
+	background: url(../img/rules/rules.jpg);
 	padding: 3rem;
 }
 
