@@ -1,6 +1,5 @@
 html {
     font-size: 10px;
-    overflow-x: hidden!important;
     max-width: 100%;
 }
 
@@ -11,6 +10,14 @@ body {
 	line-height: 2.4rem;
 	font-weight:400;
 	overflow-x: hidden!important;
+}
+
+h2 {
+	font-family: 'Arial', sans-serif;
+}
+
+p {
+	font-family: 'Trebuchet MS', sans-serif;
 }
 
 /*HEADER*/
@@ -242,6 +249,7 @@ body {
 #link {
     color: #66068e;
 }
+
 #link:hover {
     text-decoration: none;
     cursor: pointer;
@@ -303,6 +311,7 @@ body {
     font-size: 1.6rem;
     padding: 0px 1rem;
     margin-top: 2.5rem;
+    font-family: 'Verdana', sans-serif;
 }
 
 .purple1{
@@ -552,7 +561,6 @@ a.team-link:hover {
 /* RULES */
 
 #rules {
-	background-image: url(../img/rules/rules.jpg);
 	padding: 3rem;
 }
 
@@ -614,7 +622,6 @@ a.team-link:hover {
 
 /* CONTACT */
 #contacts {
-	background: url(../img/contact/contacts-bg.jpg);
 	color: #fff;
 	font-size: 2rem;
 }
@@ -637,6 +644,7 @@ a.team-link:hover {
 .time-game p {
 	display: inline-block;
 	padding-left: 0.8rem;
+	font-family: 'Verdana', sans-serif;
 }
 
 .time-game {
@@ -648,6 +656,7 @@ a.team-link:hover {
 .loc-game p {
 	display: inline-block;
 	padding-left: 0.8rem;
+	font-family: 'Verdana', sans-serif;
 }
 
 p.ptime:before {
@@ -746,6 +755,7 @@ button.form-button:hover {
     color: #66068e;
     border: 1px solid #8f129a;
 }
+
 textarea {
     background: #996ebd;
     color: #fff;
@@ -780,6 +790,7 @@ textarea:focus::-webkit-input-placeholder {
     background: #0c2149;
     padding: 3rem 0;
 }
+
 .copyright_wrapper p {
     color: #fff;
     margin: 0;
@@ -789,11 +800,11 @@ textarea:focus::-webkit-input-placeholder {
 /* RESPONSIVE */
 
 @media (max-width: 1200px) {
-	.logo {
+.logo {
 		display: none;
-	}
+}
 
-	.overlay:before {
+.overlay:before {
     position: absolute;
     content: '';
     width: 100%;
@@ -813,11 +824,13 @@ textarea:focus::-webkit-input-placeholder {
 .main-menu ul.nav li a{
     margin: 0 1.5rem;
 }
+
 .banner h2{
     font-size: 3.5rem;
     line-height: 4rem;
     padding-bottom: 1rem;
 }
+
 .banner p{
     font-size: 1.6rem;
     margin-bottom: 1rem;
@@ -1108,16 +1121,20 @@ span.main-span1 {
     margin-bottom: 2rem;
     width: 40rem;
 }
+
 .main-form button.form-button {
     font-size: 1.3rem;
 }
+
 .feedback_block iframe {
     width: 100% !important;
     height: 25rem;
 }
+
 .feedback_block1 iframe {
     margin: 0 auto;
 }
+
 .main-form {
     margin-top: 5rem;
 }
@@ -1215,7 +1232,7 @@ span.main-span1 {
 }
 
 @media (max-width: 390px) {
-	.main-form {
+.main-form {
     margin-top: 5rem;
     width: 32rem;
     margin: 0 auto;

@@ -106,6 +106,8 @@ $("#header,#contacts").on("click","a", function (event) {
         $('body,html').animate({scrollTop: top}, 1500);
     });
 
+new WOW().init();
+
 
 
 	
