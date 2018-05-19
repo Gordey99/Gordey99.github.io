@@ -20,7 +20,7 @@ $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, 
 $mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
 $mail->setFrom('cashflow.khv@mail.ru'); // от кого будет уходить письмо?
-$mail->addAddress('gordey.alekseev@inbox.ru');     // Кому будет уходить письмо 
+$mail->addAddress('galina15.08@mail.ru');     // Кому будет уходить письмо 
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
@@ -30,7 +30,7 @@ $mail->addAddress('gordey.alekseev@inbox.ru');     // Кому будет ухо
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка с сайта "Денежный поток"';
-$mail->Body    = '' .$name . ' оставил заявку, его телефон ' .$phone. '<br> Почта этого пользователя: ' .$email. '<br> Сообщение: ' .$message;
+$mail->Body    = '' .$name . ' забронировал(а) место, его(её) телефон ' .$phone. '<br> Почта этого пользователя: ' .$email. '<br> Сообщение: ' .$message;
 $mail->AltBody = '';
 
 if(!$mail->send()) {

@@ -198,16 +198,25 @@ p {
 	margin-top: 5rem;
 }
 
-.about-img {
-    margin-bottom: 3rem;
-}
-
 .about-data {
     width: 100%;
     margin-bottom: 3rem;
 }
 
+.about-data img {
+    float: left;
+    padding-right: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about-data h4 {
+    font-size: 2.1rem;
+    font-weight: bold;
+    padding-bottom: 0.7rem;
+}
+
 .about-data h2 {
+    text-align: center;
     float: left;
     width: 100%;
     position: relative;
@@ -226,7 +235,7 @@ p {
     height: 0.2rem;
     background: #66068e;
     top: 100%;
-    left: 0;
+    left: 39.5%;
 }
 
 .about-data h2:after {
@@ -236,18 +245,18 @@ p {
     width: 2.8rem;
     height: 2.5rem;
     top: 74%;
-    left: 23%;
+    left: 59%;
 }
 
 .about-data p {
-    width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     font-size: 1.9rem;
     line-height: 2.5rem;
 }
 
 #link {
     color: #66068e;
+    font-size: 2rem;
 }
 
 #link:hover {
@@ -302,6 +311,7 @@ p {
     padding: 5rem 2rem;
     background: #470064;
     height: 20rem;
+    margin-bottom: 2rem;
 }
 
 .features-block p {
@@ -624,6 +634,7 @@ a.team-link:hover {
 
 /* CONTACT */
 #contacts {
+	background: url(../img/contact/contacts-bg.jpg);
 	color: #fff;
 	font-size: 2rem;
 }
@@ -822,6 +833,10 @@ textarea:focus::-webkit-input-placeholder {
 }
 }
 @media (max-width: 1199px) {
+
+.features-block {
+    margin-bottom: 0;
+}
 
 .main-menu ul.nav li a{
     margin: 0 1.5rem;
@@ -1056,9 +1071,23 @@ textarea:focus::-webkit-input-placeholder {
 	top: 48%;
 }
 
-.about-img img {
-	float: left;
+.about-data img {
+    float: none;
+    margin-bottom: 3rem;
 }
+
+.about-data h2 {
+    text-align: left;
+}
+
+.about-data h2:before {
+    left: 0;
+}
+
+.about-data h2:after {
+    left: 23%;
+}
+
 
 .about-team {
 	width: 100% !important;
